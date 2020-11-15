@@ -1,0 +1,25 @@
+<div class="jumbotron">
+    <form id="form_preferences">
+        <div class="form-group">
+            <label for="tokens">Número de imágenes</label>
+            <select class="form-control" id="tokens">
+                <option value="20">20</option>
+                <option value="26">26</option>
+                <option value="32">32</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="time">Tiempo máximo (Segundos)</label>
+            <select class="form-control" id="time">
+                <option value="60">60</option>
+                <option value="90">90</option>
+                <option value="120">120</option>
+                <option value="150">150</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Aceptar</button>
+        <div class="alert alert-success" role="alert" id="success">
+            Preferencias modificadas
+        </div>
+    </form>
+</div>

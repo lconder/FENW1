@@ -1,0 +1,24 @@
+.cardImg {
+    height: 150px !important;
+    width: 120px !important;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+#root {
+    margin-top: 30px;
+}
+
+.board-title {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.board-points {
+    font-size: 20px;
+}
+
+.logo {
+    width: 250px;
+}
